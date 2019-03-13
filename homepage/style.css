@@ -1,0 +1,97 @@
+body{
+    font-size:0.9REM;
+}
+#sentense h1,h2,h3,h4,h5{display:inline}
+#control{
+  margin-bottom:20px;
+  float:right;
+}
+
+.container{
+  padding-top:20px;
+}
+
+header img,#file_img{
+    max-width:100%;
+    height:auto;
+}
+
+nav{
+  padding-bottom:20px;
+}
+
+.hidden{
+    color:dodgerblue;
+}
+header img,.board_click,.btn_cursor,#comment_submit,.comment_remove,.comment_revise,#revise_comment_submit,#fileBtn,#submit_revise,#submit_write,.file_down,#submit_remove{
+    cursor:pointer;
+}
+
+.board_css{
+    text-align:center;
+}
+.board_css h3{
+    padding-top:30px;
+/*    border-top : 1px solid rgba(0,0,0,.1)*/
+}
+
+.comment_id{
+    resize:none;
+}
+ #comment_submit,#revise_comment_submit{
+    position:relative;
+    bottom:6px;
+    font-size:1REM;
+    background-color:#3c9;
+    color:#FFE;
+    width:50px;
+    border:0;
+    }
+#revise_comment_submit{
+    position: relative;
+    left:673px;
+}
+.on{
+    width:725px;
+    background-color:gainsboro;
+    border-top:1px solid gray;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    margin-top : 20px;
+    margin-bottom:30px;
+    }
+.comment_read{
+    border-bottom:1px solid gray;        
+    }
+.on p{
+    margin: 3px;
+    }
+.comment_remove,.comment_revise{
+    position:relative;
+    bottom:8px;
+    float:right;
+    background-color:gainsboro;
+    border-color:floralwhite;
+    color:darkblue;
+}
+
+#form-file{
+    border:1px solid rgba(0,0,0,.15);
+    padding : 10px;
+}
+#fileBtn{
+    border:1px solid blue;
+    background-color : #1c70bb;
+    padding : 5px;
+    color : white;
+}
+.file_down{
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    background-image: url(/images/down.jpg);
+    font-size:1REM;
+    list-style:none;
+    padding:10px;
+    padding-left: 35px;
+    border:1px solid rgba(0,0,0,.15);
+}
